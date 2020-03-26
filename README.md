@@ -31,9 +31,7 @@ To figure out when to do this, we scan the DBUS for related signals:
 
 ## Install
 Do the following on both of your computers that you would like to switch between:
-`git clone https://github.com/nymann/kvm-switch.git`
-
-`cd kvm-switch && pip install .`
+`pip install git+https://github.com/nymann/kvm-switcher.git`
 
 `kvm_switch -m DP-3`
 
