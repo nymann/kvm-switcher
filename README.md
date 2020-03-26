@@ -29,5 +29,27 @@ To figure out when to do this, we scan the DBUS for related signals:
 * Keyboard disconnect.
 * Keyboard connect.
 
+## Install
+Do the following on both of your computers that you would like to switch between:
+`git clone https://github.com/nymann/kvm-switch.git`
+
+`cd kvm-switch && pip install .`
+
+`kvm_switch -m DP-3`
+
+For additional help:
+
+> kvm_switch --help
+```
+usage: kvm_switch [-h] [-v [VERBOSE]] [-m EXTRA_MONITOR]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v [VERBOSE], --verbose [VERBOSE]
+                        Enables verbose mode
+  -m EXTRA_MONITOR, --extra-monitor EXTRA_MONITOR
+                        xrandr compatible name of the extra monitor you would like to auto-switch.
+```
+
 <!-- References -->
 [kvm-switch]: docs/images/kvm-switch.png

@@ -14,7 +14,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "sentry_sdk"
+        "pyudev"
     ],
     extras_require={
         'lint': [

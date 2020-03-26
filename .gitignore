@@ -1,3 +1,4 @@
 .idea/
 kvm_switcher.egg-info/
 *.pyc
+venv/
